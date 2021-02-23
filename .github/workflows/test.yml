@@ -21,7 +21,7 @@ jobs:
         run: chmod +x gradlew
       
       - name: Cache gradle dependencies
-      - uses: actions/cache@v2
+        uses: actions/cache@v2
         with:
           path: |
             ~/.gradle/caches
